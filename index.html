@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Collegium of Advocates</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/tox-progress.css">
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<img class="navbar-brand" src="img/logo.png" alt="logo">
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<div class="row">
+				<ul id="navFirstSide" class="nav navbar-nav col-sm-4">
+					<li class="notDisplay"><a href="#">Частным лицам</a></li>
+					<li><a class="notActive" href="#">Бизнесу</a></li>
+				</ul>
+				<ul id="navSecondSide" class="nav navbar-nav navbar-right col-sm-3">
+					<li class="notDisplay">
+						<a href="tel:+88009880000"> 8 (800) 988-00-00 </a>
+					</li>
+					<li><a id="signIn" type="button" href="#" >Войти</a></li>
+				</ul>
+				<ul id="navThirdSide" class="nav navbar-nav col-sm-4">
+					<li class="notDisplay">
+						<input type="text" name="search">
+					</li>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+<div id="mainContent" class="container-fluid">
+	<div class="col-sm-4 col-sx-12 formPart">
+		<h3 class="text-center">Оставьте Вашу заявку на консультацию</h4>
+		<form class="form-horizontal" action="#"> 
+			<div class="row">
+				<div class="col-sm-12">
+					<input class="form-control" id="name" name="name" placeholder="Имя" type="text" pattern="^[\s-A-Za-zА-Яа-яЁё'`]+$" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<input class="form-control" id="telephone" name="telephone" placeholder="Телефон" type="tel" pattern="(\+?\d[- .]*){7,13}" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<textarea class="form-control" id="comments"
+					name="comments" placeholder="Ваш вопрос" rows="5"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<button class="btn sendBtn" type="submit">Оставить заявку</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="col-sm-4 col-sx-12 middlePart">
+		<div class="col-sm-12 col-sx-12">
+			<div class="col-sm-7 description">Юристов онлайн</div>
+			<div class="col-sm-5 tox-progress" 
+				data-size="100" 
+				data-thickness="12" 		
+				data-color="#f7ba07"
+				data-background="#ffffff" 
+				data-progress="100" 
+				data-speed="700">
+			    <div class="tox-progress-content" data-vcenter="true" style="display: flex; align-items: center;top: -180px;width:180px;height:180px;">
+	                <p class="text-center" style="font-family:'Josefin Sans', sans-serif; font-size: 40px; width: 100%">5</p>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-sx-12">
+			<div class="col-sm-7 description">Консультаций за сегодня</div>
+			<div class="col-sm-5 tox-progress" 
+				data-size="100" 
+				data-thickness="12" 		
+				data-color="#f7ba07"
+				data-background="#ffffff" 
+				data-progress="100" 
+				data-speed="700">
+			    <div class="tox-progress-content" data-vcenter="true" style="display: flex; align-items: center;top: -180px;width:180px;height:180px;">
+	                <p class="text-center" style="font-family:'Josefin Sans', sans-serif; font-size: 40px; width: 100%">5</p>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-sx-12">
+			<div class="col-sm-7 description">Консультаций за сегодня</div>
+			<div class="col-sm-5 tox-progress" 
+				data-size="100" 
+				data-thickness="12" 		
+				data-color="#f7ba07"
+				data-background="#ffffff" 
+				data-progress="100" 
+				data-speed="700">
+			    <div class="tox-progress-content" data-vcenter="true" style="display: flex; align-items: center;top: -180px;width:180px;height:180px;">
+	                <p class="text-center" style="font-family:'Josefin Sans', sans-serif; font-size: 40px; width: 100%">5</p>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-sx-12">
+			<div class="col-sm-7 description">Консультаций за сегодня</div>
+			<div class="col-sm-5 tox-progress" 
+				data-size="100" 
+				data-thickness="12" 		
+				data-color="#f7ba07"
+				data-background="#ffffff" 
+				data-progress="100" 
+				data-speed="700">
+			    <div class="tox-progress-content" data-vcenter="true" style="display: flex; align-items: center;top: -180px;width:180px;height:180px;">
+	                <p class="text-center" style="font-family:'Josefin Sans', sans-serif; font-size: 40px; width: 100%">5</p>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="rightPart">
+		<div class="massage">
+			<div class="massageCircle"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
